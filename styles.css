@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+ }
+  
+.navbar {
+    padding: 10px 20px;
+    background-color: #830000;
+    margin-top: center;
+    font-size: 25px;
+    color: #ffff;
+}
