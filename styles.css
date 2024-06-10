@@ -1,13 +1,75 @@
 body {
     margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #8B0000; /* Cor vermelha */
+    display: flex;
+    justify-content: space-between;
     align-items: center;
- }
-  
-.navbar {
     padding: 10px 20px;
-    background-color: #830000;
-    margin-top: center;
-    font-size: 25px;
-    color: #ffff;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 40px; /* Ajuste o tamanho conforme necessário */
+    margin-right: 10px;
+}
+
+header .logo span {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.hero {
+    text-align: justify;
+    display: flex;
+    width: 25%;
+    height: 150px;
+    display: inline-block;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin: 300px;
+    text-align: left;
+    display: block;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #333;
+    text-align: left;
+    display: block;
+}
+
+.hero .description {
+    margin-top: 20px;
+}
+
+.hero img {
+    height: 500px;
 }
