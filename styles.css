@@ -35,7 +35,8 @@ header nav ul {
 }
 
 header nav ul li {
-    margin-left: 20px;
+    margin-left: 40px;
+    padding: 15px;
 }
 
 header nav ul li a {
@@ -44,32 +45,35 @@ header nav ul li a {
     font-size: 1em;
 }
 
-.hero {
-    text-align: justify;
+.container {
+    margin: 50px;
+    padding: 10px;
+    height: 50%;
     display: flex;
-    width: 25%;
-    height: 150px;
-    display: inline-block;
-}
+    justify-content: center;
+    align-items: center;
 
-.hero h1 {
-    font-size: 2.5em;
-    margin: 300px;
-    text-align: left;
-    display: block;
 }
-
-.hero p {
-    font-size: 1.2em;
-    color: #333;
-    text-align: left;
-    display: block;
+.container h1 {
+    font-size: 4.5em;
+    width: 100%;
+    text-align: right;
+    margin-right: 350px;
 }
-
-.hero .description {
-    margin-top: 20px;
+.container p {
+    position: absolute;
+    top: 60%; /* Ajuste conforme necessário */
+    left: 35%;
+    transform: translateX(-100%);
+    font-size: 1.5em;
 }
-
-.hero img {
+.illustration {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
     height: 500px;
+}
+.illustration img {
+    margin-right: 20px; /* Espaço entre a imagem e o texto */
 }
