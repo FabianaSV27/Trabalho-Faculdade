@@ -105,3 +105,22 @@ header nav ul li a {
     cursor:pointer;
 }
 
+p {
+    font-size: 1.2rem;
+    padding: 0px 30px;
+}
+
+.titulo {
+    font-size: 20px;
+    padding: 0px 15px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 25px;
+}
